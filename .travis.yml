@@ -11,6 +11,7 @@ install:
 
 before_script:
   - git clone --branch site https://github.com/pingeek007/pingeek007.github.io.git public
+
 script:
   - hexo cl  #清除
   - hexo g  #生成
@@ -27,6 +28,7 @@ after_script:
 branches:
   only:
     - site  #只监测site分支
+
 env:
  global:
    - GH_REF: github.com/pingeek007/pingeek007.github.io.git  #设置GH_REF，注意更改yourname
