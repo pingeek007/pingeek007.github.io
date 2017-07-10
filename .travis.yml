@@ -11,6 +11,7 @@ install:
 
 before_script:
   - git clone --branch site https://github.com/pingeek007/pingeek007.github.io.git public
+  - cd ./public
   - ls .\themes\
 script:
   - hexo cl  #清除
