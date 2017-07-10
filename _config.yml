@@ -4,7 +4,7 @@
 
 # Site
 title: Hexo
-subtitle:
+subtitle: TTTTT
 description:
 author: John Doe
 language: zh-Hans
@@ -65,7 +65,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 # theme: hiker
-theme: next
+# theme: next
+theme: pln
 
 
 # Deployment
